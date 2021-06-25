@@ -1,4 +1,10 @@
-.container {
+.appbar {
+  width: 100%;
+}
+
+.headline {
   display: flex;
-  padding: 24px;
+  margin: 24px;
+  flex-grow: 1;
+  flex-direction: column;
 }
