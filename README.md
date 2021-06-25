@@ -42,7 +42,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Test
 
-- Run `npm test` to ensure you're following the correct coding guidelines
+- Run `npm test` to ensure you're following the project's coding guidelines
 
 ### Usage
 
