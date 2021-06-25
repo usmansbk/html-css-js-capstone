@@ -1,10 +1,3 @@
-.appbar {
-  width: 100%;
-}
-
 .headline {
-  display: flex;
   margin: 24px;
-  flex-grow: 1;
-  flex-direction: column;
 }
