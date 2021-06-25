@@ -8,3 +8,24 @@
   font-family: "Cocogoose";
   src: url(./fonts/Cocogoose.otf);
 }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ul,
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
