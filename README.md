@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 ### Development
 
 - DO NOT EDIT THE CSS FILE
-- Use `npm build` after modifying any SASS file
+- Use `npm build` to generate new CSS after modifying any SASS file
 
 ### Usage
 
