@@ -1,8 +1,5 @@
-@use 'colors';
-
 .header-1 {
   font-family: "Cocogoose";
-  color: colors.$primary;
   font-size: 48px;
   line-height: 60px;
 }
@@ -10,5 +7,9 @@
 .subheading-1 {
   font-size: 20px;
   line-height: 28px;
-  color: colors.$primary;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 24px;
 }
