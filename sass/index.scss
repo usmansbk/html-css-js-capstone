@@ -7,6 +7,17 @@ body {
 
 .navbar {
   padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: "Cocogoose";
+  padding: 0 12px;
+  color: colors.$primary;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .navbar-toggler {
