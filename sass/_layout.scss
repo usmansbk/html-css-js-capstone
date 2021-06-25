@@ -45,10 +45,15 @@
   li {
     align-items: center;
     display: grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns: auto 20% auto;
     gap: 20px;
     background-color: rgba($color: #fff, $alpha: 0.03);
     padding: 16px;
+
+    img {
+      width: 36px;
+      height: 36px;
+    }
 
     .program-title {
       font-weight: 600;
