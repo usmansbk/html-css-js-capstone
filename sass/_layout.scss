@@ -43,10 +43,19 @@
   margin: 16px 0;
 
   li {
-    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% auto;
     gap: 20px;
     background-color: rgba($color: #fff, $alpha: 0.03);
     padding: 16px;
-    // filter: brightness();
+
+    .program-title {
+      font-weight: 600;
+    }
+
+    .program-description {
+      font-size: 14px;
+    }
   }
 }
