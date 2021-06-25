@@ -65,6 +65,10 @@
   font-size: 16px;
   padding: 24px;
   letter-spacing: 0.03em;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .d-flex {
