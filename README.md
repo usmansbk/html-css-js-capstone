@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 ### Development
 
 - **DO NOT MODIFY THE CSS FILE** :bangbang:
-- Make all style changes in the `sass/` files
+- Make all styling changes in the `sass/` files
 - Run `npm build` to generate new CSS
 
 ### Test
