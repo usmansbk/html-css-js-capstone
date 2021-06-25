@@ -38,10 +38,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Run `npm run build` to generate new CSS
 
-### Test
-
-- Run `npm test` to ensure you're following the project's coding guidelines
-
 ### Usage
 
 - Open `index.html` in your browser
