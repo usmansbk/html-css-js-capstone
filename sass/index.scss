@@ -17,6 +17,11 @@ body {
   padding: 0 12px;
   color: colors.$primary;
   font-size: 20px;
+
+  span {
+    font-family: "Cocogoose";
+    color: colors.$secondary;
+  }
 }
 
 .navbar-toggler {
