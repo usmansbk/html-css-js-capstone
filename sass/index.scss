@@ -1,1 +1,6 @@
 @use 'reset';
+@use 'colors';
+
+body {
+  background-color: colors.$background;
+}
