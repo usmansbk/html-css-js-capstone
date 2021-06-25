@@ -26,4 +26,12 @@
 .main-program {
   padding: 36px 16px;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  width: 10%;
+  height: 1px;
+  align-self: center;
 }
