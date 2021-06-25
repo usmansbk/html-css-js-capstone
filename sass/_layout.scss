@@ -11,3 +11,10 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.box {
+  width: 100%;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  padding: 16px;
+}
