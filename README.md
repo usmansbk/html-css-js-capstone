@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- Open `index.html` on your browser
+- Open `index.html` in your browser
 
 ## Authors
 
