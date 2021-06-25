@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Development
 
-- Run `npm run build` to generate new CSS
+- Run `npm run build` to generate CSS
 
 ### Usage
 
