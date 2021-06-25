@@ -4,7 +4,7 @@
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
-Additional description about the project and its features.
+This project is a prototype for the web version of a mobile application that allows students to share their schedules. Students can follow their class schedule, and get notified when a new event is scheduled or canceled. They receive a reminder before an event happens and can communicate with each other through the event discussion section.
 
 ## Built With
 
