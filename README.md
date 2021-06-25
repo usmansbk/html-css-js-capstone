@@ -69,4 +69,4 @@ Give a ⭐️ if you like this project!
 
 - Suleiman Babakolo (Father)
 - Microverse
-- Inspiration
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
