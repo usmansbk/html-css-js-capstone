@@ -1,10 +1,10 @@
-# OpenConf
+# AAGEConf
 
-> Free and open community conferences
+> Annual Africa Gender Equality Conference
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
-OpenConf are free and open community conferences for everyone. Anyone can talk and everyone can listen.
+The Annual Africa Gender Equality Conference is a virtual event that takes place every year.
 
 ## Built With
 
