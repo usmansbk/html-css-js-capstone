@@ -33,13 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 - Run `npm install`
-
-### Development
-
 - Run `npm run build` to generate CSS
-
-### Usage
-
 - Open `index.html` in your browser
 
 ## Authors
