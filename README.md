@@ -1,10 +1,10 @@
-# SHARE.DO
+# OpenConf
 
-> School schedule sharing application
+> Free and open community conferences
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
-This project is a prototype for the web version of a mobile application that allows students to share their schedules. Students can follow their class schedule, and get notified when a new event is scheduled or canceled. They receive a reminder before an event happens and can communicate with each other through the event discussion section.
+OpenConf are free and open community conferences for everyone. Anyone can talk and everyone can listen.
 
 ## Built With
 
