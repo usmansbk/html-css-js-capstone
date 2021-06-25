@@ -1,3 +1,8 @@
-header-1 {
+@use 'colors';
+
+.header-1 {
   font-family: "Cocogoose";
+  color: colors.$primary;
+  font-size: 48px;
+  line-height: 60px;
 }
