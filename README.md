@@ -26,8 +26,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Make sure you have Node NPM on your computer
-- Clone or download this repo on your computer
+- Make sure you have Node NPM installed on your computer
+- Clone or download this repo on your machine
 - Enter project directory
 
 ### Install
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Development
 
-- DO NOT EDIT THE CSS FILE
+- **DO NOT EDIT THE CSS FILE**
 - Run `npm build` to generate new CSS after modifying any SASS file
 
 ### Test
