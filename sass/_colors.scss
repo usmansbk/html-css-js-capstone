@@ -8,10 +8,18 @@ $dark-text: #515151;
   color: $primary;
 }
 
+.color-secondary {
+  color: $secondary;
+}
+
 .color-dark-text {
   color: $dark-text;
 }
 
 .bg {
   background-color: $background;
+}
+
+.bg-dark {
+  background-color: $secondary;
 }
