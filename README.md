@@ -71,7 +71,3 @@ Give a ⭐️ if you like this project!
 - Suleiman Babakolo (Father)
 - Microverse
 - Inspiration
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
