@@ -1,7 +1,12 @@
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .headline {
   margin: 24px;
-  padding-bottom: 48px;
-  padding-top: 24px;
+  padding: 48px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
