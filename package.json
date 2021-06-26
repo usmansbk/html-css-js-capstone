@@ -21,7 +21,8 @@
     "stylelint": "npx stylelint \"**/*.{css,scss}\"",
     "eslint": "npx eslint .",
     "test": "npm run webhint && npm run stylelint && npm run eslint",
-    "build": "sass --watch sass:css"
+    "build:dev": "sass --watch sass:css",
+    "build": "sass sass:css"
   },
   "repository": {
     "type": "git",
