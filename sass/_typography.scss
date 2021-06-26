@@ -1,11 +1,25 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+
+@mixin cocogoose-font {
+  font-family: "Cocogoose", sans-serif;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
 .header-1 {
-  font-family: "Cocogoose";
+  @include cocogoose-font();
   font-size: 36px;
   line-height: 52px;
 }
 
 .header-2 {
-  font-family: "Cocogoose";
+  @include cocogoose-font();
   font-size: 24px;
   line-height: 30px;
 }
