@@ -8,6 +8,13 @@ button {
   border: none;
   background-color: transparent;
 }
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.5;
+}
 
 article,
 aside,
@@ -244,13 +251,6 @@ li {
   padding: 24px;
   letter-spacing: 0.03em;
 }
-.button:hover {
-  cursor: pointer;
-  opacity: 0.9;
-}
-.button:active {
-  opacity: 0.5;
-}
 
 .button-outline {
   height: 48px;
@@ -259,13 +259,6 @@ li {
   border-style: solid;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.button-outline:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-.button-outline:active {
-  opacity: 0.5;
 }
 
 body {
@@ -299,13 +292,6 @@ body {
   height: 48px;
   font-size: 24px;
   color: #515151;
-}
-.appbar .navbar .navbar-toggler:hover {
-  cursor: pointer;
-  opacity: 0.9;
-}
-.appbar .navbar .navbar-toggler:active {
-  opacity: 0.5;
 }
 
 /*# sourceMappingURL=index.css.map */

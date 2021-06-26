@@ -3,15 +3,6 @@
   font-size: 16px;
   padding: 24px;
   letter-spacing: 0.03em;
-
-  &:hover {
-    cursor: pointer;
-    opacity: 0.9;
-  }
-
-  &:active {
-    opacity: 0.5;
-  }
 }
 
 .button-outline {
@@ -21,13 +12,4 @@
   border-style: solid;
   box-sizing: border-box;
   border-radius: 4px;
-
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-
-  &:active {
-    opacity: 0.5;
-  }
 }

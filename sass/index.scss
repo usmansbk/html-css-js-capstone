@@ -38,15 +38,6 @@ body {
       height: 48px;
       font-size: 24px;
       color: colors.$dark-text;
-
-      &:hover {
-        cursor: pointer;
-        opacity: 0.9;
-      }
-
-      &:active {
-        opacity: 0.5;
-      }
     }
   }
 }
