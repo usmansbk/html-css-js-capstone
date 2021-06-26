@@ -32,6 +32,14 @@ $dark-text: #515151;
   background-color: $secondary;
 }
 
+.bg-tertiary {
+  background-color: $tertiary;
+}
+
 .bd-primary {
   border-color: $primary;
+}
+
+.bd-tertiary {
+  border-color: $tertiary;
 }
