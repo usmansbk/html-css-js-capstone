@@ -210,29 +210,6 @@ li {
   width: 19px;
 }
 
-.button {
-  color: white;
-  font-size: 16px;
-  padding: 24px;
-  letter-spacing: 0.03em;
-}
-.button:hover {
-  cursor: pointer;
-  opacity: 0.9;
-}
-.button:active {
-  opacity: 0.5;
-}
-
-.button-outline {
-  height: 48px;
-  width: 100%;
-  border-width: 2px;
-  border-style: solid;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -259,6 +236,36 @@ li {
 
 .my-16 {
   margin: 16px 0;
+}
+
+.button {
+  color: white;
+  font-size: 16px;
+  padding: 24px;
+  letter-spacing: 0.03em;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.button:active {
+  opacity: 0.5;
+}
+
+.button-outline {
+  height: 48px;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button-outline:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button-outline:active {
+  opacity: 0.5;
 }
 
 body {

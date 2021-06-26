@@ -3,6 +3,7 @@
 @use 'typography';
 @use 'layout';
 @use 'spacing';
+@use 'components';
 
 body {
   background-color: colors.$background;
