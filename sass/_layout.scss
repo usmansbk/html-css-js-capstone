@@ -29,6 +29,7 @@
       align-items: center;
       justify-content: left;
       display: grid;
+      flex-wrap: wrap;
       grid-template-columns: 24px 100px auto;
       gap: 20px;
       background-color: rgba($color: #fff, $alpha: 0.03);
@@ -62,6 +63,7 @@
 
     li {
       display: flex;
+      flex-wrap: wrap;
       gap: 20px;
 
       img {
