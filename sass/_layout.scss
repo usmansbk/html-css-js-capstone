@@ -44,9 +44,9 @@
 
   li {
     align-items: center;
-    justify-content: left;
+    justify-content: space-evenly;
     display: grid;
-    grid-template-columns: 8% 20% auto;
+    grid-template-columns: 24px 100px auto;
     gap: 20px;
     background-color: rgba($color: #fff, $alpha: 0.03);
     padding: 16px;
