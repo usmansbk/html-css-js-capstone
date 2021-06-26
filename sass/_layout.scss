@@ -49,6 +49,19 @@
   }
 }
 
+.featured-speakers {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+
+  .speakers-list {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    gap: 20px;
+  }
+}
+
 .divider {
   width: 38px;
   height: 1px;
