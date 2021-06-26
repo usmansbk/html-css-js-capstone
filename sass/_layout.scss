@@ -13,50 +13,46 @@
   }
 }
 
-.text-center {
-  text-align: center;
-}
-
 .main-program {
   padding: 36px 12px;
   color: #fff;
   display: flex;
   flex-direction: column;
+
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0;
+
+    li {
+      align-items: center;
+      justify-content: space-evenly;
+      display: grid;
+      grid-template-columns: 24px 100px auto;
+      gap: 20px;
+      background-color: rgba($color: #fff, $alpha: 0.03);
+      padding: 16px;
+
+      i {
+        font-size: 24px;
+      }
+
+      .program-title {
+        font-weight: 600;
+      }
+
+      .program-description {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 .divider {
   width: 38px;
   height: 1px;
   align-self: center;
-}
-
-.program-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 16px 0;
-
-  li {
-    align-items: center;
-    justify-content: space-evenly;
-    display: grid;
-    grid-template-columns: 24px 100px auto;
-    gap: 20px;
-    background-color: rgba($color: #fff, $alpha: 0.03);
-    padding: 16px;
-
-    i {
-      font-size: 24px;
-    }
-
-    .program-title {
-      font-weight: 600;
-    }
-
-    .program-description {
-      font-size: 14px;
-    }
-  }
 }
 
 .button {
@@ -68,6 +64,10 @@
   &:hover {
     cursor: pointer;
   }
+}
+
+.text-center {
+  text-align: center;
 }
 
 .d-flex {
