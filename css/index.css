@@ -302,6 +302,10 @@ body {
 }
 .appbar .navbar .navbar-toggler:hover {
   cursor: pointer;
+  opacity: 0.9;
+}
+.appbar .navbar .navbar-toggler:active {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=index.css.map */
