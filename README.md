@@ -1,10 +1,10 @@
-# AAGEConf
+# AGEConf
 
 > Annual Africa Gender Equality Conference
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
-The Annual Africa Gender Equality Conference is a virtual event that takes place every year.
+The Africa Gender Equality Conference is a virtual event that takes place every year.
 
 ## Built With
 
