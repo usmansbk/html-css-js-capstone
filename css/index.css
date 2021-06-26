@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ul,
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.color-primary {
+  color: #ec5242;
+}
+
+.color-secondary {
+  color: #272a31;
+}
+
+.color-dark-text {
+  color: #515151;
+}
+
+.bg {
+  background-color: #f7f7f9;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-primary {
+  background-color: #ec5242;
+}
+
+.bg-dark {
+  background-color: #272a31;
+}
+
+.bg-tertiary {
+  background-color: #d3d3d3;
+}
+
+.bd-primary {
+  border-color: #ec5242;
+}
+
+.bd-secondary {
+  border-color: #272a31;
+}
+
+.bd-tertiary {
+  border-color: #d3d3d3;
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.header-1 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.header-2 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.header-3 {
+  font-size: 18px;
+}
+
+.header-4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subheading-1 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.body-2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.caption-1 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.fs-italics {
+  font-style: italic;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.headline {
+  margin: 24px;
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headline .box {
+  width: 100%;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.main-program {
+  padding: 36px 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.main-program .program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0;
+}
+.main-program .program-list li {
+  align-items: center;
+  justify-content: left;
+  display: grid;
+  grid-template-columns: 24px 100px auto;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 16px;
+}
+.main-program .program-list li i {
+  font-size: 24px;
+}
+.main-program .program-list li .program-title {
+  font-weight: 600;
+}
+.main-program .program-list li .program-description {
+  font-size: 14px;
+}
+
+.featured-speakers {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.featured-speakers .speakers-list {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 48px 0;
+  gap: 40px;
+}
+.featured-speakers .speakers-list li {
+  display: flex;
+  gap: 20px;
+}
+.featured-speakers .speakers-list li img {
+  height: 100%;
+  width: 100px;
+}
+
+.divider {
+  width: 38px;
+  border-width: 1px;
+  border-style: solid;
+  align-self: center;
+}
+
+.small-divider {
+  width: 19px;
+}
+
+.button {
+  color: white;
+  font-size: 16px;
+  padding: 24px;
+  letter-spacing: 0.03em;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.button:active {
+  opacity: 0.5;
+}
+
+.button-outline {
+  height: 48px;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mt-12 {
+  margin-top: 12px 0;
+}
+
+.mb-12 {
+  margin-bottom: 12px 0;
+}
+
+.my-12 {
+  margin: 12px 0;
+}
+
+.my-16 {
+  margin: 16px 0;
+}
+
+body {
+  background-color: #f7f7f9;
+}
+
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.appbar .navbar {
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appbar .navbar .navbar-brand {
+  display: none;
+  font-family: "Cocogoose";
+  padding: 0 12px;
+  color: #ec5242;
+  font-size: 20px;
+}
+.appbar .navbar .navbar-brand span {
+  font-family: "Cocogoose";
+  color: #272a31;
+}
+.appbar .navbar .navbar-toggler {
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  color: #515151;
+}
+.appbar .navbar .navbar-toggler:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
