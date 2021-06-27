@@ -38,18 +38,18 @@
   flex-direction: column;
 
   .program-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 1fr;
     gap: 12px;
     margin: 16px 0;
 
     .program-item {
-      min-height: 80px;
-      align-items: center;
-      justify-content: left;
       display: grid;
       grid-template-columns: 24px 100px auto;
       gap: 20px;
+      align-items: center;
+      justify-content: left;
       background-color: rgba($color: #fff, $alpha: 0.03);
       padding: 16px;
 
@@ -80,9 +80,7 @@
 
     .program-list {
       margin: 16px 12px;
-      display: grid;
       grid-template-columns: repeat(5, minmax(0, 1fr));
-      grid-auto-rows: 1fr;
       justify-content: center;
 
       .program-item {
@@ -105,17 +103,18 @@
   flex-direction: column;
 
   .speakers-list {
-    display: flex;
-    flex-direction: column;
-    margin: 16px 0 48px 0;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    margin: 24px 0 48px 0;
+    gap: 20px;
 
     .speaker-item {
       display: flex;
       gap: 20px;
 
       .profile-image {
-        height: 100%;
+        height: 100px;
         width: 100px;
       }
     }
@@ -129,8 +128,8 @@
     align-items: center;
 
     .speakers-list {
-      display: grid;
       grid-template-columns: 50% 50%;
+      grid-row-gap: 48px;
       width: 80%;
 
       .speaker-item {
