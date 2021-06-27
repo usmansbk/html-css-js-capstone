@@ -12,14 +12,16 @@
   font-family: "Lato", sans-serif;
 }
 
-.header-1 {
+.ff-2 {
   @include cocogoose-font();
+}
+
+.header-1 {
   font-size: 36px;
   line-height: 52px;
 }
 
 .header-2 {
-  @include cocogoose-font();
   font-size: 24px;
   line-height: 30px;
 }

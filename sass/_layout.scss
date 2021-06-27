@@ -107,6 +107,10 @@
       gap: 20px;
 
       .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-blend-mode: multiply;
         .card-image {
           width: 100%;

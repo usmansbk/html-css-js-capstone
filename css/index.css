@@ -50,6 +50,10 @@ li {
   color: #515151;
 }
 
+.color-white {
+  color: white;
+}
+
 .bg {
   background-color: #f7f7f9;
 }
@@ -91,14 +95,16 @@ li {
   font-family: "Lato", sans-serif;
 }
 
-.header-1 {
+.ff-2 {
   font-family: "Cocogoose", sans-serif;
+}
+
+.header-1 {
   font-size: 36px;
   line-height: 52px;
 }
 
 .header-2 {
-  font-family: "Cocogoose", sans-serif;
   font-size: 24px;
   line-height: 30px;
 }
@@ -239,6 +245,10 @@ li {
   gap: 20px;
 }
 .about .past-conf .card-list .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-blend-mode: multiply;
 }
 .about .past-conf .card-list .card .card-image {
