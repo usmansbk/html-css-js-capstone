@@ -170,6 +170,9 @@ li {
     padding: 0 10%;
     margin: 12px;
   }
+  .headline .content {
+    width: 60%;
+  }
 }
 
 .main-program {
