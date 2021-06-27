@@ -339,6 +339,11 @@ li {
     width: 50%;
   }
 }
+.about .past-conf .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .about .past-conf .card-list {
   display: flex;
   flex-direction: column;
@@ -358,6 +363,17 @@ li {
   top: 45%;
   width: 100%;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about .past-conf .content {
+    width: 50%;
+  }
+  .about .past-conf .card-list {
+    flex-direction: row;
+  }
+  .about .past-conf .card-list .card {
+    width: 100%;
+  }
 }
 
 .footer {
