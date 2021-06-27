@@ -79,10 +79,10 @@
     justify-content: center;
 
     .program-list {
+      margin: 16px 12px;
       display: grid;
       grid-template-columns: repeat(5, minmax(0, 1fr));
       justify-content: center;
-      width: 80%;
 
       .program-item {
         display: flex;
