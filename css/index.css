@@ -351,9 +351,10 @@ li {
   text-align: center;
 }
 .about .past-conf .card-list .card .card-image {
-  opacity: 0.65;
+  opacity: 0.48;
   height: 100%;
   width: 100%;
+  mix-blend-mode: multiply;
 }
 .about .past-conf .card-list .card .card-body {
   position: absolute;
