@@ -259,6 +259,12 @@ li {
   text-align: center;
 }
 
+.footer {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .divider {
   width: 38px;
   border-width: 1px;
