@@ -63,6 +63,19 @@
       }
     }
   }
+
+  @media screen and (min-width: 768px) {
+    padding: 4% 10%;
+    align-items: center;
+
+    .program-list {
+      width: 60%;
+    }
+
+    .join-button {
+      display: none;
+    }
+  }
 }
 
 .featured-speakers {

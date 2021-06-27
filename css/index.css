@@ -205,6 +205,18 @@ li {
 .main-program .program-list .program-item .program-description {
   font-size: 14px;
 }
+@media screen and (min-width: 768px) {
+  .main-program {
+    padding: 4% 10%;
+    align-items: center;
+  }
+  .main-program .program-list {
+    width: 60%;
+  }
+  .main-program .join-button {
+    display: none;
+  }
+}
 
 .featured-speakers {
   padding: 24px 16px;
