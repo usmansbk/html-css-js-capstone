@@ -429,6 +429,14 @@ li {
   border-radius: 4px;
 }
 
+.join-nav-button {
+  box-sizing: border-box;
+  border-width: 3px;
+  border-style: solid;
+  height: 48px;
+  padding: 4px 16px;
+}
+
 body {
   background-color: #f7f7f9;
 }
@@ -463,7 +471,7 @@ body {
   }
 }
 .appbar .navbar {
-  height: 48px;
+  min-height: 48px;
   padding: 0 12px;
   display: flex;
   justify-content: space-between;
