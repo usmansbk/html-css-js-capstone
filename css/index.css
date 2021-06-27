@@ -164,6 +164,13 @@ li {
   border-width: 3px;
   border-color: white;
 }
+@media screen and (min-width: 768px) {
+  .headline {
+    height: 100vh;
+    padding: 0 10%;
+    margin: 12px;
+  }
+}
 
 .main-program {
   padding: 36px 12px;
