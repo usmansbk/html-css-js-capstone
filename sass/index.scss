@@ -71,6 +71,7 @@ body {
 }
 
 .menu {
+  display: none;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -88,4 +89,8 @@ body {
     gap: 20px;
     padding: 24px;
   }
+}
+
+.open-menu {
+  display: block;
 }
