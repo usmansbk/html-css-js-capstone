@@ -122,6 +122,27 @@
       }
     }
   }
+  @media screen and (min-width: constants.$min-width) {
+    align-items: center;
+
+    .speakers-list {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      width: 80%;
+
+      .speaker-item {
+        width: 100%;
+
+        .profile-image {
+          height: 150px;
+          width: 150px;
+        }
+      }
+    }
+    .more-button {
+      display: none;
+    }
+  }
 }
 
 .about {

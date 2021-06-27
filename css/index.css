@@ -255,6 +255,26 @@ li {
   height: 100%;
   width: 100px;
 }
+@media screen and (min-width: 768px) {
+  .featured-speakers {
+    align-items: center;
+  }
+  .featured-speakers .speakers-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+  }
+  .featured-speakers .speakers-list .speaker-item {
+    width: 100%;
+  }
+  .featured-speakers .speakers-list .speaker-item .profile-image {
+    height: 150px;
+    width: 150px;
+  }
+  .featured-speakers .more-button {
+    display: none;
+  }
+}
 
 .about .about-age {
   padding: 24px;
