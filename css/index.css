@@ -328,6 +328,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 .appbar .navbar {
   padding: 0 12px;
