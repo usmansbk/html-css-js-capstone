@@ -4,8 +4,7 @@
 
 ![Desktop](https://user-images.githubusercontent.com/10219539/123554488-27e07180-d778-11eb-93e1-e5d31918fc9e.png)
 
-![Mobile](https://user-images.githubusercontent.com/10219539/123554604-b0f7a880-d778-11eb-8efc-1dced9c213ac.png)
-
+![Mobile](https://user-images.githubusercontent.com/10219539/123554680-00d66f80-d779-11eb-9b06-fc7cd28e4405.png)
 
 The Africa Gender Equality Conference is a virtual event that takes place every year.
 
