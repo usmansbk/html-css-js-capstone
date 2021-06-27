@@ -451,6 +451,7 @@ li {
 
 body {
   position: relative;
+  margin-top: 48px;
   background-color: #f7f7f9;
 }
 
