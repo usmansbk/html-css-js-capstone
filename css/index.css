@@ -201,6 +201,11 @@ li {
   background-color: rgba(255, 255, 255, 0.03);
   padding: 16px;
 }
+.main-program .program-list .program-item:hover {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
 .main-program .program-list .program-item i {
   font-size: 24px;
 }
@@ -217,12 +222,12 @@ li {
     justify-content: center;
   }
   .main-program .program-list {
-    display: flex;
-    flex-direction: row;
-    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    justify-content: center;
+    width: 80%;
   }
   .main-program .program-list .program-item {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
