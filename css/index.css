@@ -232,11 +232,15 @@ li {
   border-width: 1px;
   margin: 40px 0;
 }
-.about .past-conf {
+.about aside {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px;
+}
+.about .about-logo {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 .about .past-conf .card-list {
   display: flex;
@@ -324,6 +328,18 @@ body {
   background-color: #f7f7f9;
 }
 
+.logo {
+  display: none;
+  font-family: "Cocogoose";
+  padding: 0 12px;
+  color: #ec5242;
+  font-size: 20px;
+}
+.logo span {
+  font-family: "Cocogoose";
+  color: #272a31;
+}
+
 .appbar {
   position: fixed;
   top: 0;
@@ -335,17 +351,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.appbar .navbar .navbar-brand {
-  display: none;
-  font-family: "Cocogoose";
-  padding: 0 12px;
-  color: #ec5242;
-  font-size: 20px;
-}
-.appbar .navbar .navbar-brand span {
-  font-family: "Cocogoose";
-  color: #272a31;
 }
 .appbar .navbar .navbar-toggler {
   width: 48px;
