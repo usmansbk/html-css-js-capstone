@@ -192,6 +192,7 @@ li {
   margin: 16px 0;
 }
 .main-program .program-list .program-item {
+  min-height: 80px;
   align-items: center;
   justify-content: left;
   display: grid;
