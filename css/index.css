@@ -171,7 +171,7 @@ li {
   gap: 12px;
   margin: 16px 0;
 }
-.main-program .program-list li {
+.main-program .program-list .program-item {
   align-items: center;
   justify-content: left;
   display: grid;
@@ -180,13 +180,13 @@ li {
   background-color: rgba(255, 255, 255, 0.03);
   padding: 16px;
 }
-.main-program .program-list li i {
+.main-program .program-list .program-item i {
   font-size: 24px;
 }
-.main-program .program-list li .program-title {
+.main-program .program-list .program-item .program-title {
   font-weight: 600;
 }
-.main-program .program-list li .program-description {
+.main-program .program-list .program-item .program-description {
   font-size: 14px;
 }
 
@@ -201,11 +201,11 @@ li {
   margin: 16px 0 48px 0;
   gap: 40px;
 }
-.featured-speakers .speakers-list li {
+.featured-speakers .speakers-list .speaker-item {
   display: flex;
   gap: 20px;
 }
-.featured-speakers .speakers-list li img {
+.featured-speakers .speakers-list .speaker-item .profile-image {
   height: 100%;
   width: 100px;
 }
@@ -231,6 +231,19 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 40px;
+}
+.about .past-conf .card-list {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 20px;
+}
+.about .past-conf .card-list .card {
+  background-blend-mode: multiply;
+}
+.about .past-conf .card-list .card .card-image {
+  width: 100%;
+  height: 100%;
 }
 
 .divider {
