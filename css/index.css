@@ -370,5 +370,9 @@ body {
   font-size: 24px;
   color: #515151;
 }
+.appbar .navbar .navbar-nav {
+  display: flex;
+  gap: 40px;
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -43,5 +43,10 @@ body {
       font-size: 24px;
       color: colors.$dark-text;
     }
+
+    .navbar-nav {
+      display: flex;
+      gap: 40px;
+    }
   }
 }
