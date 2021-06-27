@@ -229,11 +229,6 @@ li {
   .main-program .join-button {
     display: none;
   }
-  .main-program .link-button {
-    display: block;
-    text-decoration: underline;
-    font-size: 14px;
-  }
 }
 
 .featured-speakers {
