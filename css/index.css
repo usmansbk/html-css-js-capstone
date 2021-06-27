@@ -356,6 +356,7 @@ body {
   z-index: 2;
 }
 .appbar .navbar {
+  height: 48px;
   padding: 0 12px;
   display: flex;
   justify-content: space-between;
@@ -371,8 +372,22 @@ body {
   color: #515151;
 }
 .appbar .navbar .navbar-nav {
-  display: flex;
+  display: none;
   gap: 40px;
+}
+@media screen and (min-width: 768px) {
+  .appbar .navbar {
+    padding: 0 10%;
+  }
+  .appbar .navbar .navbar-brand {
+    display: block;
+  }
+  .appbar .navbar .navbar-toggler {
+    display: none;
+  }
+  .appbar .navbar .navbar-nav {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
