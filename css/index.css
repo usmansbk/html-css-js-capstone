@@ -86,6 +86,10 @@ li {
   border-color: #d3d3d3;
 }
 
+.active {
+  color: #ec5242;
+}
+
 @font-face {
   font-family: Cocogoose;
   src: url(../fonts/Cocogoose.otf);
@@ -438,6 +442,7 @@ li {
 }
 
 body {
+  position: relative;
   background-color: #f7f7f9;
 }
 

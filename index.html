@@ -16,23 +16,23 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-spy" data-offset="0">
     <div class="container">
       <header class="appbar bg">
-        <nav class="navbar">
+        <nav id="navbar-spy" class="navbar">
           <a class="navbar-brand logo" href="/">AGE<span>Conf</span></a>
           <button id="open-menu" class="navbar-toggler" type="button">
             <i class="fas fa-bars"></i>
           </button>
-          <ul class="navbar-nav color-dark-text">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
+          <ul class="nav navbar-nav color-dark-text">
             <li class="nav-item">
               <a class="nav-link" href="#program">Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="join-nav-button color-primary bd-primary" href="#join">Join</a>
@@ -218,6 +218,21 @@
         </li>
       </ul>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="./index.js"></script>
   </body>
 </html>
