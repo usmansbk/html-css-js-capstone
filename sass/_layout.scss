@@ -154,9 +154,24 @@
     flex-direction: column;
     align-items: center;
 
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     .box {
       @include box(1px);
       margin: 40px;
+    }
+
+    @media screen and (min-width: constants.$min-width) {
+      height: 100vh;
+      justify-content: center;
+
+      .content {
+        width: 50%;
+      }
     }
   }
 

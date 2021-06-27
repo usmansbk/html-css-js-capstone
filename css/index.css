@@ -284,6 +284,11 @@ li {
   flex-direction: column;
   align-items: center;
 }
+.about .about-age .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .about .about-age .box {
   width: 100%;
   border-style: solid;
@@ -291,6 +296,15 @@ li {
   padding: 16px;
   border-width: 1px;
   margin: 40px;
+}
+@media screen and (min-width: 768px) {
+  .about .about-age {
+    height: 100vh;
+    justify-content: center;
+  }
+  .about .about-age .content {
+    width: 50%;
+  }
 }
 .about aside {
   display: flex;
