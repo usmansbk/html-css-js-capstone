@@ -59,4 +59,4 @@ Give a ⭐️ if you like this project!
 - Suleiman Babakolo (Father)
 - Microverse
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-- Avatars by [UIFaces](https://uifaces.co/)
+- Avatars by [Pravatar](https://www.pravatar.cc)
