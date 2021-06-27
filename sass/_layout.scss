@@ -64,6 +64,10 @@
     }
   }
 
+  .link-button {
+    display: none;
+  }
+
   @media screen and (min-width: 768px) {
     padding: 4% 10%;
     align-items: center;
@@ -74,6 +78,12 @@
 
     .join-button {
       display: none;
+    }
+
+    .link-button {
+      display: block;
+      text-decoration: underline;
+      font-size: 14px;
     }
   }
 }
