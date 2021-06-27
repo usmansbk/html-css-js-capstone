@@ -185,11 +185,24 @@
   .about-logo {
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .box {
       display: flex;
       justify-content: center;
       @include box(1px);
       margin-top: 40px;
+    }
+    @media screen and (min-width: constants.$min-width) {
+      .box {
+        width: 50%;
+      }
+      .content {
+        width: 50%;
+      }
     }
   }
 
