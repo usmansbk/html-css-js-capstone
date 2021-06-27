@@ -452,6 +452,13 @@ body {
   color: #272a31;
 }
 
+.navbar-toggler {
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  color: #515151;
+}
+
 .appbar {
   position: fixed;
   top: 0;
@@ -468,12 +475,6 @@ body {
 }
 .appbar .navbar .navbar-brand {
   display: none;
-}
-.appbar .navbar .navbar-toggler {
-  width: 48px;
-  height: 48px;
-  font-size: 24px;
-  color: #515151;
 }
 .appbar .navbar .navbar-nav {
   display: none;
@@ -492,6 +493,24 @@ body {
   .appbar .navbar .navbar-nav {
     display: flex;
   }
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+.menu .menu-header {
+  height: 48px;
+  padding: 0 12px;
+}
+.menu .menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
 }
 
 /*# sourceMappingURL=index.css.map */
