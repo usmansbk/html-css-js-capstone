@@ -66,10 +66,6 @@
     }
   }
 
-  .link-button {
-    display: none;
-  }
-
   @media screen and (min-width: constants.$min-width) {
     padding: 4% 10%;
     align-items: center;
@@ -116,6 +112,11 @@
       }
     }
   }
+
+  .more-button {
+    display: none;
+  }
+
   @media screen and (min-width: constants.$min-width) {
     align-items: center;
 
@@ -132,9 +133,6 @@
           width: 150px;
         }
       }
-    }
-    .more-button {
-      display: none;
     }
   }
 }

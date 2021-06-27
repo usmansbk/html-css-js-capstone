@@ -205,9 +205,6 @@ li {
 .main-program .program-list .program-item .program-description {
   font-size: 14px;
 }
-.main-program .link-button {
-  display: none;
-}
 @media screen and (min-width: 768px) {
   .main-program {
     padding: 4% 10%;
@@ -250,6 +247,9 @@ li {
   height: 100%;
   width: 100px;
 }
+.featured-speakers .more-button {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .featured-speakers {
     align-items: center;
@@ -265,9 +265,6 @@ li {
   .featured-speakers .speakers-list .speaker-item .profile-image {
     height: 150px;
     width: 150px;
-  }
-  .featured-speakers .more-button {
-    display: none;
   }
 }
 
