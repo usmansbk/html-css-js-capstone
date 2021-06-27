@@ -14,7 +14,7 @@ The Africa Gender Equality Conference is a virtual event that takes place every 
 
 ## Live Demo
 
-[Live Demo Link](https://usmansbk.github.io/html-css-js-captsone/)
+[Live Demo Link](https://usmansbk.github.io/html-css-js-capstone/)
 
 ## Getting Started
 
