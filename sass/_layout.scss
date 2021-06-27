@@ -212,6 +212,7 @@
 
       .card {
         position: relative;
+        text-align: center;
         .card-image {
           opacity: 0.65;
           height: 100%;
@@ -219,10 +220,11 @@
         }
 
         .card-body {
+          // padding: 0 12px;
           position: absolute;
-          top: 45%;
-          width: 100%;
-          text-align: center;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
         }
       }
     }
