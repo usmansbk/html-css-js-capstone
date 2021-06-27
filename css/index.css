@@ -522,4 +522,8 @@ body {
   display: block;
 }
 
+.turn-off-scroll {
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=index.css.map */
