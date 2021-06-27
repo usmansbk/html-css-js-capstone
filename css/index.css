@@ -152,9 +152,11 @@ li {
 }
 .headline .box {
   width: 100%;
-  border: 3px solid #fff;
+  border-style: solid;
   box-sizing: border-box;
   padding: 16px;
+  border-width: 3px;
+  border-color: white;
 }
 
 .main-program {
@@ -206,6 +208,23 @@ li {
 .featured-speakers .speakers-list li img {
   height: 100%;
   width: 100px;
+}
+
+.about {
+  padding: 24px;
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .box {
+  width: 100%;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 16px;
+  border-width: 1px;
+  margin: 40px 0;
 }
 
 .divider {
