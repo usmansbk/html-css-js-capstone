@@ -210,7 +210,7 @@ li {
   width: 100px;
 }
 
-.about {
+.about .about-age {
   padding: 24px;
   background-image: url(../images/background.svg);
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.about .box {
+.about .about-age .box {
   width: 100%;
   border-style: solid;
   box-sizing: border-box;

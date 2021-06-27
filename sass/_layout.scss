@@ -80,16 +80,18 @@
 }
 
 .about {
-  padding: 24px;
-  background-image: url(../images/background.svg);
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .about-age {
+    padding: 24px;
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  .box {
-    @include box(1px);
-    margin: 40px 0;
+    .box {
+      @include box(1px);
+      margin: 40px 0;
+    }
   }
 }
 
