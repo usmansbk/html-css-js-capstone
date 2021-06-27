@@ -230,7 +230,7 @@ li {
   box-sizing: border-box;
   padding: 16px;
   border-width: 1px;
-  margin: 40px 0;
+  margin: 40px;
 }
 .about aside {
   display: flex;
@@ -250,7 +250,7 @@ li {
   box-sizing: border-box;
   padding: 16px;
   border-width: 1px;
-  margin: 40px 0;
+  margin-top: 40px;
 }
 .about .past-conf .card-list {
   display: flex;
