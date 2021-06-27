@@ -103,18 +103,22 @@
     .card-list {
       display: flex;
       flex-direction: column;
-      padding: 24px;
+      padding: 24px 12px;
       gap: 20px;
 
       .card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-blend-mode: multiply;
+        position: relative;
         .card-image {
-          width: 100%;
+          opacity: 0.65;
           height: 100%;
+          width: 100%;
+        }
+
+        .card-body {
+          position: absolute;
+          top: 45%;
+          width: 100%;
+          text-align: center;
         }
       }
     }
