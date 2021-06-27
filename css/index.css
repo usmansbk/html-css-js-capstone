@@ -510,24 +510,33 @@ body {
   display: none;
   position: fixed;
   top: 0;
-  z-index: 999;
   width: 100%;
   height: 100%;
-  mix-blend-mode: multiply;
+  background-blend-mode: multiply;
+}
+.menu .menu-content {
+  width: 100%;
+  height: 100%;
 }
 .menu .menu-header {
   height: 48px;
   padding: 0 12px;
 }
 .menu .menu-nav {
+  position: absolute;
+  top: 48px;
+  left: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 24px;
 }
+.menu .menu-nav .nav-link {
+  font-weight: 600;
+}
 
 .menu-overlay {
-  filter: blur(16px);
+  filter: blur(24px);
 }
 
 .open-menu {
