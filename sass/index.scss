@@ -10,7 +10,6 @@ body {
 }
 
 .logo {
-  display: none;
   font-family: "Cocogoose";
   padding: 0 12px;
   color: colors.$primary;
@@ -33,6 +32,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .navbar-brand {
+      display: none;
+    }
 
     .navbar-toggler {
       width: 48px;

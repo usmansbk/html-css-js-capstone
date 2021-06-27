@@ -242,6 +242,16 @@ li {
   border-bottom-width: 2px;
   border-bottom-style: solid;
 }
+.about .about-logo .box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 16px;
+  border-width: 1px;
+  margin: 40px 0;
+}
 .about .past-conf .card-list {
   display: flex;
   flex-direction: column;
@@ -329,7 +339,6 @@ body {
 }
 
 .logo {
-  display: none;
   font-family: "Cocogoose";
   padding: 0 12px;
   color: #ec5242;
@@ -351,6 +360,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.appbar .navbar .navbar-brand {
+  display: none;
 }
 .appbar .navbar .navbar-toggler {
   width: 48px;

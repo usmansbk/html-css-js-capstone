@@ -104,6 +104,12 @@
   .about-logo {
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    .box {
+      display: flex;
+      justify-content: center;
+      @include box(1px);
+      margin: 40px 0;
+    }
   }
 
   .past-conf {
