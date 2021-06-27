@@ -93,6 +93,13 @@
       margin: 40px 0;
     }
   }
+
+  .past-conf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
 }
 
 .divider {
