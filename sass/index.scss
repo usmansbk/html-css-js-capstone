@@ -34,7 +34,9 @@ body {
   top: 0;
   width: 100%;
   z-index: 2;
-  filter: drop-shadow(0px 0px 16px rgba(64, 83, 252, 0.24));
+  @media screen and (min-width: constants.$min-width) {
+    filter: drop-shadow(0px 0px 16px rgba(64, 83, 252, 0.24));
+  }
 
   .navbar {
     height: 48px;
@@ -77,6 +79,7 @@ body {
   z-index: 999;
   width: 100%;
   height: 100%;
+  mix-blend-mode: multiply;
 
   .menu-header {
     height: 48px;
@@ -89,6 +92,10 @@ body {
     gap: 20px;
     padding: 24px;
   }
+}
+
+.menu-overlay {
+  filter: blur(16px);
 }
 
 .open-menu {
