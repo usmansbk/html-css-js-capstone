@@ -212,9 +212,19 @@ li {
   .main-program {
     padding: 4% 10%;
     align-items: center;
+    justify-content: center;
   }
   .main-program .program-list {
+    display: flex;
+    flex-direction: row;
     width: 60%;
+  }
+  .main-program .program-list .program-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .main-program .join-button {
     display: none;
