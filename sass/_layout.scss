@@ -1,3 +1,5 @@
+@use 'constants';
+
 @mixin box($border-width: 3px) {
   width: 100%;
   border-style: solid;
@@ -18,7 +20,7 @@
     @include box;
     border-color: white;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: constants.$min-width) {
     height: 100vh;
     padding: 0 10%;
     margin: 12px;
@@ -68,7 +70,7 @@
     display: none;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: constants.$min-width) {
     padding: 4% 10%;
     align-items: center;
     justify-content: center;

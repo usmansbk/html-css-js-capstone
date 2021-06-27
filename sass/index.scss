@@ -4,6 +4,7 @@
 @use 'layout';
 @use 'spacing';
 @use 'components';
+@use 'constants';
 
 body {
   background-color: colors.$background;
@@ -51,7 +52,7 @@ body {
       gap: 40px;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: constants.$min-width) {
       padding: 0 10%;
 
       .navbar-brand {
