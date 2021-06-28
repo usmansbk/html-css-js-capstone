@@ -8,10 +8,18 @@
 .button-outline {
   height: 48px;
   width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-width: 2px;
   border-style: solid;
   box-sizing: border-box;
   border-radius: 4px;
+
+  i {
+    margin-left: 8px;
+  }
 }
 
 .join-nav-button {

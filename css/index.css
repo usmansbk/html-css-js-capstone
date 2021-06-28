@@ -212,9 +212,6 @@ li {
   height: 100px;
   width: 100px;
 }
-.featured-speakers .more-button {
-  display: none;
-}
 @media screen and (min-width: 768px) {
   .featured-speakers {
     align-items: center;
@@ -390,10 +387,17 @@ li {
 .button-outline {
   height: 48px;
   width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-width: 2px;
   border-style: solid;
   box-sizing: border-box;
   border-radius: 4px;
+}
+.button-outline i {
+  margin-left: 8px;
 }
 
 .join-nav-button {
