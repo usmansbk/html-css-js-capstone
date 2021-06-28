@@ -1,24 +1,25 @@
 @use 'reset';
-@use 'colors';
 @use 'typography';
 @use 'layout';
 @use 'spacing';
 @use 'components';
 @use 'constants';
 
+@import 'colors';
+
 body {
   position: relative;
   margin-top: 48px;
-  background-color: colors.$background;
+  background-color: $background;
 }
 
 .logo {
   padding: 0 12px;
-  color: colors.$primary;
+  color: $primary;
   font-size: 20px;
 
   span {
-    color: colors.$secondary;
+    color: $secondary;
   }
 }
 
@@ -26,7 +27,7 @@ body {
   width: 48px;
   height: 48px;
   font-size: 24px;
-  color: colors.$dark-text;
+  color: $dark-text;
 }
 
 .appbar {
