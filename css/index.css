@@ -440,10 +440,6 @@ li {
   color: white;
 }
 
-.color-sm-dark {
-  color: #515151;
-}
-
 .bg {
   background-color: #f7f7f9;
 }
@@ -464,10 +460,15 @@ li {
   background-color: #d3d3d3;
 }
 
-.bg-sm-white {
-  background-color: white;
-}
+@media screen and (min-width: 768px) {
+  .color-lg-white {
+    color: white;
+  }
 
+  .bg-lg-dark {
+    background-color: #272a31;
+  }
+}
 .bd-primary {
   border-color: #ec5242;
 }

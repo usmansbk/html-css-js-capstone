@@ -20,10 +20,6 @@ $dark-text: #515151;
   color: white;
 }
 
-.color-sm-dark {
-  color: $dark-text;
-}
-
 
 .bg {
   background-color: $background;
@@ -45,8 +41,14 @@ $dark-text: #515151;
   background-color: $tertiary;
 }
 
-.bg-sm-white {
-  background-color: white;
+@media screen and (min-width: constants.$min-width) {
+  .color-lg-white {
+    color: white;
+  }
+
+  .bg-lg-dark {
+    background-color: $secondary;
+  }
 }
 
 .bd-primary {
