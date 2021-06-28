@@ -80,6 +80,10 @@
     }
   }
 
+  .see-all-button {
+    display: none;
+  }
+
   @media screen and (min-width: constants.$min-width) {
     padding: 4% 10%;
     align-items: center;
@@ -100,6 +104,13 @@
 
     .join-button {
       display: none;
+    }
+
+    .see-all-button {
+      display: block;
+      font-size: 14px;
+      margin-top: 40px;
+      text-decoration: underline;
     }
   }
 }
