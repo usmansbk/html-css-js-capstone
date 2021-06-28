@@ -500,6 +500,8 @@ body {
   top: 0;
   width: 100%;
   z-index: 2;
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
 }
 .appbar .small-bar {
   display: none;
@@ -507,6 +509,7 @@ body {
 @media screen and (min-width: 768px) {
   .appbar {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
+    background-image: none;
   }
   .appbar .small-bar {
     display: flex;
