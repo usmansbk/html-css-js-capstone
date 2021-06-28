@@ -15,6 +15,7 @@ The Africa Gender Equality Conference is a virtual event that takes place every 
 ## Project Presentation
 
 [Watch me give a short presentation about this project](https://www.loom.com/share/49cc39a9a89745d2b2c8dc8b4643d1ca)
+[... and here is an interesting feature about the project.](https://www.loom.com/share/2f1a34b44a4546e09ff0ac14a1bb165d)
 
 ## Live Demo
 
