@@ -351,6 +351,7 @@ li {
   padding: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .divider {
@@ -485,9 +486,6 @@ body {
   padding: 0 12px;
   color: #ec5242;
   font-size: 20px;
-}
-.logo span {
-  color: #272a31;
 }
 
 .navbar-toggler {
