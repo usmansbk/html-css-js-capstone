@@ -55,19 +55,21 @@ function loadSpeakers(start = 0, end) {
     const li = document.createElement('li');
     li.classList.add('speaker-item');
     const itemBody = `
-     <img
-        class="profile-image"
-        src="${avatar}?img=${id}"
-        alt="${name}"
-     />
-     <div>
-       <h6 class="header-4">${name}</h6>
-       ${title ? `<small class="caption-1 fs-italics fw-bold color-primary">${title}</small>` : ''}
-       <div
-         class="divider small-divider bg-tertiary bd-tertiary my-12"
-       ></div>
-       <p class="caption-1">${bio}</p>
-     </div>
+    <article>
+      <img
+          class="profile-image"
+          src="${avatar}?img=${id}"
+          alt="${name}"
+      />
+      <div>
+        <h6 class="header-4">${name}</h6>
+        ${title ? `<small class="caption-1 fs-italics fw-bold color-primary">${title}</small>` : ''}
+        <div
+          class="divider small-divider bg-tertiary bd-tertiary my-12"
+        ></div>
+        <p class="caption-1">${bio}</p>
+      </div>
+    </article>
     `;
     li.innerHTML = itemBody;
     speakers.appendChild(li);
