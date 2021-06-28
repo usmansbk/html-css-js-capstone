@@ -126,6 +126,10 @@
     grid-auto-rows: 1fr;
     margin: 24px 0 48px 0;
     gap: 20px;
+    
+    article {
+      display: flex;
+    }
 
     .speaker-item {
       display: flex;

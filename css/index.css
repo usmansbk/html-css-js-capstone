@@ -216,6 +216,9 @@ li {
   margin: 24px 0 48px 0;
   gap: 20px;
 }
+.featured-speakers .speakers-list article {
+  display: flex;
+}
 .featured-speakers .speakers-list .speaker-item {
   display: flex;
   gap: 20px;

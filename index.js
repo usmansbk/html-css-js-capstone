@@ -53,9 +53,8 @@ function loadSpeakers(start = 0, end) {
     bio,
   }) => {
     const li = document.createElement('li');
-    li.classList.add('speaker-item');
     const itemBody = `
-    <article>
+    <article class="speaker-item">
       <img
           class="profile-image"
           src="${avatar}?img=${id}"
