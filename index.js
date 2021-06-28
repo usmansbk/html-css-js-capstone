@@ -76,7 +76,9 @@ function loadSpeakers(start = 0, end) {
 }
 
 function onLoad() {
-  loadSpeakers(0, 2);
+  if (speakers) {
+    loadSpeakers(0, 2);
+  }
 }
 
 function handleToggleMenu() {
@@ -90,7 +92,10 @@ function loadMoreSpeakers() {
   moreButton.remove();
 }
 
-moreButton.addEventListener('click', loadMoreSpeakers);
+if (moreButton) {
+  moreButton.addEventListener('click', loadMoreSpeakers);
+}
+
 menuNav.addEventListener('click', handleToggleMenu);
 openMenuButton.addEventListener('click', handleToggleMenu);
 closeMenuButton.addEventListener('click', handleToggleMenu);
