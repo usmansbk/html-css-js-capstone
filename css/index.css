@@ -99,6 +99,13 @@ li {
   font-family: "Lato", sans-serif;
 }
 
+.logo {
+  font-family: "Cocogoose", sans-serif;
+}
+.logo span {
+  font-family: "Cocogoose", sans-serif;
+}
+
 .ff-2 {
   font-family: "Cocogoose", sans-serif;
 }
@@ -456,13 +463,11 @@ body {
 }
 
 .logo {
-  font-family: "Cocogoose";
-  padding: 0 12px;
+  padding: 0px 12px;
   color: #ec5242;
   font-size: 20px;
 }
 .logo span {
-  font-family: "Cocogoose";
   color: #272a31;
 }
 

@@ -12,6 +12,14 @@
   font-family: "Lato", sans-serif;
 }
 
+.logo {
+  @include cocogoose-font();
+
+  span {
+    @include cocogoose-font();
+  }
+}
+
 .ff-2 {
   @include cocogoose-font();
 }
