@@ -7,10 +7,12 @@ button {
   border-radius: 0;
   border: none;
   background-color: transparent;
+
   &:hover {
     cursor: pointer;
     opacity: 0.8;
   }
+
   &:active {
     opacity: 0.5;
   }
