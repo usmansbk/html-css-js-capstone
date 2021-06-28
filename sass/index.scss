@@ -36,6 +36,10 @@ body {
   width: 100%;
   z-index: 2;
 
+  .small-bar {
+    display: none;
+  }
+
   @media screen and (min-width: constants.$min-width) {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
 
