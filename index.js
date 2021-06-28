@@ -53,8 +53,8 @@ function loadSpeakers(start = 0, end) {
     bio,
   }) => {
     const li = document.createElement('li');
+    li.classList.add('speaker-item');
     const itemBody = `
-    <article class="speaker-item">
       <img
           class="profile-image"
           src="${avatar}?img=${id}"
@@ -68,7 +68,6 @@ function loadSpeakers(start = 0, end) {
         ></div>
         <p class="caption-1">${bio}</p>
       </div>
-    </article>
     `;
     li.innerHTML = itemBody;
     speakers.appendChild(li);
