@@ -504,6 +504,20 @@ body {
   .appbar {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
   }
+  .appbar .small-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 10%;
+  }
+  .appbar .small-bar button {
+    color: white;
+  }
+  .appbar .small-bar .bar-actions {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 }
 .appbar .navbar {
   min-height: 48px;
