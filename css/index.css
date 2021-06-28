@@ -509,9 +509,14 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 8px 10%;
+    gap: 40px;
   }
   .appbar .small-bar button {
     color: white;
+  }
+  .appbar .small-bar .social-icons {
+    display: flex;
+    gap: 20px;
   }
   .appbar .small-bar .bar-actions {
     display: flex;
