@@ -47,6 +47,10 @@
     gap: 12px;
     margin: 16px 0;
 
+    li {
+      display: flex;
+    }
+
     .program-item {
       display: grid;
       grid-template-columns: 24px 100px auto;
