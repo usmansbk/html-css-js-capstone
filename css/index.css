@@ -147,9 +147,6 @@ li {
   gap: 12px;
   margin: 16px 0;
 }
-.main-program .program-list li {
-  display: flex;
-}
 .main-program .program-list .program-item {
   display: grid;
   grid-template-columns: 24px 100px auto;
