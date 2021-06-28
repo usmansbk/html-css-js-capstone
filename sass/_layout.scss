@@ -86,6 +86,10 @@
       grid-template-columns: repeat(5, minmax(0, 1fr));
       justify-content: center;
 
+      li {
+        display: flex;
+      }
+
       .program-item {
         display: flex;
         flex-direction: column;
