@@ -440,6 +440,10 @@ li {
   color: white;
 }
 
+.color-sm-dark {
+  color: #515151;
+}
+
 .bg {
   background-color: #f7f7f9;
 }
@@ -458,6 +462,10 @@ li {
 
 .bg-tertiary {
   background-color: #d3d3d3;
+}
+
+.bg-sm-white {
+  background-color: white;
 }
 
 .bd-primary {

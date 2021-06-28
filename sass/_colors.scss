@@ -20,6 +20,11 @@ $dark-text: #515151;
   color: white;
 }
 
+.color-sm-dark {
+  color: $dark-text;
+}
+
+
 .bg {
   background-color: $background;
 }
@@ -38,6 +43,10 @@ $dark-text: #515151;
 
 .bg-tertiary {
   background-color: $tertiary;
+}
+
+.bg-sm-white {
+  background-color: white;
 }
 
 .bd-primary {
