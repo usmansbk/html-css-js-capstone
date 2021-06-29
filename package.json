@@ -1,0 +1,36 @@
+{
+  "name": "share.do",
+  "version": "1.0.0",
+  "description": "Schedule sharing application",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "hint": "^6.1.4",
+    "sass": "^1.35.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "scripts": {
+    "webhint": "npx hint .",
+    "stylelint": "npx stylelint \"**/*.{css,scss}\"",
+    "eslint": "npx eslint .",
+    "test": "npm run webhint && npm run stylelint && npm run eslint",
+    "build": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmansbk/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmansbk/portfolio/issues"
+  },
+  "homepage": "https://github.com/usmansbk/portfolio#readme"
+}

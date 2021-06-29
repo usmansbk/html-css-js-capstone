@@ -1,0 +1,67 @@
+$primary: #ec5242;
+$secondary: #272a31;
+$tertiary: #d3d3d3;
+$background: #f7f7f9;
+$dark-text: #515151;
+
+.color-primary {
+  color: $primary;
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.color-dark-text {
+  color: $dark-text;
+}
+
+.color-white {
+  color: white;
+}
+
+.bg {
+  background-color: $background;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-dark {
+  background-color: $secondary;
+}
+
+.bg-tertiary {
+  background-color: $tertiary;
+}
+
+@media screen and (min-width: constants.$min-width) {
+  .color-lg-white {
+    color: white;
+  }
+
+  .bg-lg-dark {
+    background-color: $secondary;
+  }
+}
+
+.bd-primary {
+  border-color: $primary;
+}
+
+.bd-secondary {
+  border-color: $secondary;
+}
+
+.bd-tertiary {
+  border-color: $tertiary;
+}
+
+.active {
+  color: $primary;
+}

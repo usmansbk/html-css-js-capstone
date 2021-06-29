@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>AGE-21</title>
+    <script
+      src="https://kit.fontawesome.com/b99221d6be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="48">
+    <div class="container">
+      <header class="appbar bg">
+        <nav class="small-bar bg-dark">
+          <div class="social-icons">
+            <a href="https://web.facebook.com"
+              ><i class="fab fa-facebook-f color-white"></i
+            ></a>
+            <a href="https://twitter.com"
+              ><i class="fab fa-twitter color-white"></i
+            ></a>
+          </div>
+          <ul class="bar-actions">
+            <li><button type="button">Logout</button></li>
+            <li><button type="button">Mypage</button></li>
+            <li><button type="button">English</button></li>
+          </ul>
+        </nav>
+        <nav id="navbar-spy" class="navbar">
+          <a class="navbar-brand logo" href="./"
+            >AGE<span class="color-dark-text">Conf</span></a
+          >
+          <button id="open-menu" class="navbar-toggler" type="button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav navbar-nav color-dark-text">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#join">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#sponsor">Sponsor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="join-nav-button color-primary bd-primary" href="#campaign"
+                >AGE Campaign</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article id="program" class="headline">
+        <div class="content">
+          <h6 class="subheading-1 color-primary mb-12">
+            "Achieving an equal future in society"
+          </h6>
+          <h1 class="header-1 color-primary ff-2">
+            AFRICA GENDER EQUALITY CONFERENCE 2021
+          </h1>
+          <div class="box my-16 bg">
+            <p class="body-1 color-dark-text">
+              We invite you to participate in the three-day conference, present
+              your research work, and contribute to transforming the way the
+              world engages with issues of gender and sexuality, publish with
+              well-known publishers while advancing your career.
+            </p>
+          </div>
+          <h3 class="header-2 color-dark-text mb-12 ff-2">
+            2021.25.06(FRI) ~ 27(SAT)
+          </h3>
+          <p class="body-2 color-dark-text">
+            @ Alexis Hotel Conference Center, Lilongwe, Malawi
+          </p>
+        </div>
+      </article>
+      <section class="main-program bg-dark color-white">
+        <h2 class="header-3 text-center">Main Program</h2>
+        <div class="divider bg-primary bd-primary my-12"></div>
+        <ul class="program-list">
+          <li>
+            <article class="program-item">
+              <i class="fas fa-microphone"></i>
+              <h6 class="color-primary program-title body-1">
+                8 Keynote Addresses
+              </h6>
+              <p class="program-description">
+                Delivered by high level dignitaries
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="program-item">
+              <i class="far fa-comment-dots"></i>
+              <h6 class="color-primary program-title body-1">
+                20+ #CovidVoices
+              </h6>
+              <p class="program-description">
+                Stories of how Covid19 has affected women and girls from across
+                Africa
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="program-item">
+              <i class="fas fa-user-friends"></i>
+              <h6 class="color-primary program-title body-1">Workshops</h6>
+              <p class="program-description">
+                Partner organised Skills Building workshops
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="program-item">
+              <i class="fas fa-guitar"></i>
+              <h6 class="color-primary program-title body-1">Concert</h6>
+              <p class="program-description">
+                A Concert and various music, dance and poetry performances
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="program-item">
+              <i class="fas fa-trophy"></i>
+              <h6 class="color-primary program-title body-1">
+                Annual AGE Awards
+              </h6>
+              <p class="program-description">
+                A celebration of individuals and organisations that have
+                championed gender equality.
+              </p>
+            </article>
+          </li>
+        </ul>
+        <div class="d-flex justify-center my-12">
+          <button type="button" class="join-button button bg-primary">
+            Join AGEConf 2021
+          </button>
+        </div>
+        <a class="see-all-button" href="#all-program">SEE THE WHOLE PROGRAM</a>
+      </section>
+      <section class="featured-speakers bg-white">
+        <h2 class="header-3 text-center color-secondary">Featured Speakers</h2>
+        <div class="divider bg-primary bd-primary my-12"></div>
+        <ul class="speakers-list"></ul>
+        <div class="pagination">
+          <button
+            id="more-button"
+            class="button-outline bd-tertiary more-button"
+            type="button"
+          >
+            MORE <i class="fas fa-chevron-down color-primary"></i>
+          </button>
+        </div>
+      </section>
+      <footer class="bg-white color-dark-text footer">
+        <a class="navbar-brand logo" href="./"
+          >AGE<span class="color-dark-text">Conf</span></a
+        >
+        <small class="text-center"
+          >2021 Africa Gender Equality. Some Rights Reserved.</small
+        >
+      </footer>
+    </div>
+    <div class="menu color-white bg-primary">
+      <div class="menu-header">
+        <button id="close-menu" class="navbar-toggler" type="button">
+          <i class="fas fa-times color-white"></i>
+        </button>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item header-2">
+          <a class="nav-link" href="./index.html">Program</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link header-2" href="./about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
