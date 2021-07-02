@@ -9,7 +9,7 @@
 }
 
 .headline {
-  background-image: url(../images/background.svg);
+  background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
   margin: 24px;
   padding: 48px 0;
@@ -24,6 +24,7 @@
   }
 
   @media screen and (min-width: constants.$min-width) {
+    background-image: url(../images/main_big.png);
     height: 100vh;
     padding: 0 10%;
     margin: 12px;
@@ -35,6 +36,7 @@
 }
 
 .main-program {
+  background-image: url(../images/pattern_bg.png);
   padding: 36px 12px;
   color: #fff;
   display: flex;
@@ -57,7 +59,7 @@
       gap: 20px;
       align-items: center;
       justify-content: left;
-      background-color: rgba($color: #fff, $alpha: 0.03);
+      background-color: rgba($color: #fff, $alpha: 0.1);
       padding: 16px;
 
       &:hover {
@@ -165,7 +167,7 @@
 .about {
   .about-age {
     padding: 24px;
-    background-image: url(../images/background.svg);
+    background-image: url(../images/main_big.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
