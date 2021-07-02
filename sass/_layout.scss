@@ -297,7 +297,12 @@
     gap: 40px;
     
     .partner {
+      filter: grayscale(100%) contrast(30%);
       height: 30px;
+
+      &:hover {
+        filter: none;
+      }
     }
   }
 }

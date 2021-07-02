@@ -368,7 +368,11 @@ li {
   gap: 40px;
 }
 .partners .logos .partner {
+  filter: grayscale(100%) contrast(30%);
   height: 30px;
+}
+.partners .logos .partner:hover {
+  filter: none;
 }
 
 .footer {
