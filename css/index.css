@@ -109,8 +109,8 @@ li {
 .headline {
   background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
-  margin: 24px;
-  padding: 48px 0;
+  margin: 24px 0;
+  padding: 48px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,7 +128,7 @@ li {
     background-image: url(../images/main_big.png);
     height: 100vh;
     padding: 0 10%;
-    margin: 12px;
+    margin: 12px 0;
   }
   .headline .content {
     width: 60%;
@@ -494,7 +494,6 @@ body {
 }
 
 .logo {
-  padding: 0 12px;
   color: #ec5242;
   font-size: 20px;
 }
