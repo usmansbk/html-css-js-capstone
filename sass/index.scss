@@ -9,7 +9,6 @@
 
 body {
   position: relative;
-  margin-top: 48px;
   background-color: $background;
 }
 
@@ -34,13 +33,11 @@ body {
   .small-bar {
     display: none;
   }
-
-  background-image: url(../images/background.svg);
-  background-repeat: no-repeat;
+  background-color: transparent;
 
   @media screen and (min-width: constants.$min-width) {
+    background-color: $background;
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
-    background-image: none;
 
     .small-bar {
       display: flex;

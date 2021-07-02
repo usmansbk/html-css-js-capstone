@@ -12,10 +12,13 @@
   background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
   margin: 24px 0;
-  padding: 48px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  .content {
+    padding: 48px 24px;
+  }
 
   .box {
     @include box;
@@ -286,6 +289,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .divider {

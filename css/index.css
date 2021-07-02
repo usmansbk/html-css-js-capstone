@@ -110,10 +110,12 @@ li {
   background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
   margin: 24px 0;
-  padding: 48px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.headline .content {
+  padding: 48px 24px;
 }
 .headline .box {
   width: 100%;
@@ -354,6 +356,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .divider {
@@ -489,7 +492,6 @@ li {
 
 body {
   position: relative;
-  margin-top: 48px;
   background-color: #f7f7f9;
 }
 
@@ -510,16 +512,15 @@ body {
   top: 0;
   width: 100%;
   z-index: 2;
-  background-image: url(../images/background.svg);
-  background-repeat: no-repeat;
+  background-color: transparent;
 }
 .appbar .small-bar {
   display: none;
 }
 @media screen and (min-width: 768px) {
   .appbar {
+    background-color: #f7f7f9;
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
-    background-image: none;
   }
   .appbar .small-bar {
     display: flex;
