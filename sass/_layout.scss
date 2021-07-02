@@ -288,6 +288,18 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
+  .logos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    .partner {
+      height: 30px;
+    }
+  }
 }
 
 .footer {
