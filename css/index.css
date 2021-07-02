@@ -106,6 +106,10 @@ li {
   font-weight: bold;
 }
 
+.fw-normal {
+  font-weight: normal;
+}
+
 .headline {
   background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
@@ -351,6 +355,12 @@ li {
   }
 }
 
+.partners {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
   padding: 40px;
   display: flex;
@@ -443,6 +453,10 @@ li {
 
 .color-white {
   color: white;
+}
+
+.color-tertiary {
+  color: #d3d3d3;
 }
 
 .bg {
