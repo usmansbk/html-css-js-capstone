@@ -293,7 +293,9 @@
   .logos {
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 40px;
     
     .partner {
@@ -303,6 +305,9 @@
       &:hover {
         filter: none;
       }
+    }
+    @media screen and (min-width: constants.$min-width) {
+      flex-direction: row;
     }
   }
 }

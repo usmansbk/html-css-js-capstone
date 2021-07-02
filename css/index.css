@@ -364,7 +364,9 @@ li {
 .partners .logos {
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 .partners .logos .partner {
@@ -373,6 +375,11 @@ li {
 }
 .partners .logos .partner:hover {
   filter: none;
+}
+@media screen and (min-width: 768px) {
+  .partners .logos {
+    flex-direction: row;
+  }
 }
 
 .footer {
