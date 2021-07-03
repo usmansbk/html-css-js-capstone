@@ -18,6 +18,15 @@
 
   .content {
     padding: 48px 24px;
+
+    .title {
+      background-image: url(../images/orange.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
   }
 
   .box {
